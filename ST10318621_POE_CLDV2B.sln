@@ -5,6 +5,8 @@ VisualStudioVersion = 17.9.34616.47
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "POE_CLDV2B", "POE_CLDV2B.csproj", "{94059A6A-CF62-4323-8307-41AC5576748C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CLDV_ST10318621_P2", "..\CLDV_ST10318621_P2\CLDV_ST10318621_P2.csproj", "{51F64C89-42CF-4BEE-A1C7-375CA07FE87C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{94059A6A-CF62-4323-8307-41AC5576748C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{94059A6A-CF62-4323-8307-41AC5576748C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{94059A6A-CF62-4323-8307-41AC5576748C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{51F64C89-42CF-4BEE-A1C7-375CA07FE87C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{51F64C89-42CF-4BEE-A1C7-375CA07FE87C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{51F64C89-42CF-4BEE-A1C7-375CA07FE87C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{51F64C89-42CF-4BEE-A1C7-375CA07FE87C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
