@@ -2,7 +2,7 @@
 
 <div class="container mt-5" style="background-color: floralwhite; border: 1px solid blue; border-radius: 5px; padding: 20px; box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);">
     
-    <form asp-action="UploadImage" method="post" enctype="multipart/form-data" class="mb-3">
+    <form asp-action="UploadBlob" method="post" enctype="multipart/form-data" class="mb-3">
         <div class="mb-3">
             <label for="file" class="form-label" style="color: #343a40;">Upload Product Image</label>
             <input type="file" name="file" class="form-control" id="file" style="border: 1px solid #ced4da; border-radius: 5px;" />
@@ -10,7 +10,7 @@
         <button type="submit" class="btn btn-primary" style="background-color: #007bff; border-color: #007bff;">Upload Image</button>
     </form>
 
-    <form asp-action="AddCustomerProfile" method="post" class="mb-3">
+    <form asp-action="StoreToTable" method="post" class="mb-3">
         <div class="mb-3">
             <label for="FirstName" class="form-label" style="color: #343a40;">First Name</label>
             <input type="text" name="FirstName" class="form-control" id="FirstName" placeholder="First Name" style="border: 1px solid #ced4da; border-radius: 5px;" />
@@ -30,7 +30,7 @@
         <button type="submit" class="btn btn-primary" style="background-color: #007bff; border-color: #007bff;">Add Profile</button>
     </form>
 
-    <form asp-action="ProcessOrder" method="post" class="mb-3">
+    <form asp-action="ProcessQueueMessages" method="post" class="mb-3">
         <div class="mb-3">
             <label for="orderId" class="form-label" style="color: #343a40;">Order ID</label>
             <input type="text" name="orderId" class="form-control" id="orderId" placeholder="Order ID" style="border: 1px solid #ced4da; border-radius: 5px;" />
@@ -38,7 +38,7 @@
         <button type="submit" class="btn btn-primary" style="background-color: #007bff; border-color: #007bff;">Process Order</button>
     </form>
 
-    <form asp-action="UploadContract" method="post" enctype="multipart/form-data" class="mb-3">
+    <form asp-action="UploadFile" method="post" enctype="multipart/form-data" class="mb-3">
         <div class="mb-3">
             <label for="file" class="form-label" style="color: #343a40;">Upload Contract</label>
             <input type="file" name="file" class="form-control" id="file" style="border: 1px solid #ced4da; border-radius: 5px;" />
